@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Voice Note App</title>
+    <meta name="description" content="A Voice Note App that allows you to take voice and/or text notes and play them back.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap CDN CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body >
+    <div class="container-fluid align-center">
+        <img src="assets/img/code-mic-150.png" alt="Voice Note App Logo">
+        <h1>Speech to Text Convertion Web-App</h1>
+        <p class="page-description">This web-app allows you to take voice and convert them into text.</p>
+        <p> Click on the 'Start Recognition' button to start recognition. It will be automatically stopped after a few 
+            seconds of inactivity.You need to enable JavaScript in your browser and microphone access. <a href=".......">
+                Click here</a> to watch a tutorial.</hr>
+            </p>
+            
+        <hr>
+        <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
+        <div class="app">
+            <div class="row">
+                <div class="col-md-12 align-center">
+                    <h3>Let's Speak</h3>
+                    <div class="input-single" >
+                        <textarea id="note-textarea" placeholder="Your Text will be appear here." rows="6"></textarea>
+                     
+                        </div>
+                    <button id="start-record-btn" class="btn-success" title="Start Recording">Start Recognition</button>
+                    <button id="pause-record-btn" class="btn-warning" title="Pause Recording">Pause Recognition</button>
+                    <!--  <button id="save-note-btn" class="btn-info" title="Save Note">Save Note</button> -->
+                    <p id="recording-instructions">Press the
+                        <strong>Start Recognition</strong> button and allow access.</p>
+                </div>
+                
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /app -->
+    </div>
+    <!--<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>-->
+    <div id="footer">
+        <div class="clearfix1">
+            <div class="container">
+                <div class="row">
+
+                    <div class="center">
+
+                        <!-- <h4>Follow Me</h4>          -->
+<!--  -->
+                        <!-- <ul class="social-links"> -->
+<!--  -->
+                            <!-- <a href="https://www.facebook.com/arindam.majee.5"><i class="fa fa-facebook-official"></i></a> &nbsp; -->
+<!--  -->
+                            <!-- <a href="https://twitter.com/ArindamMajee1"><i class="fa fa-twitter"></i></a> &nbsp; -->
+<!--  -->
+                            <!-- <a href="https://www.linkedin.com/in/arindammajee0/"><i class="fa fa-linkedin"></i></a> &nbsp; -->
+<!--  -->
+                            <!-- <a href="https://www.instagram.com/arindammajee0/"><i class="fa fa-instagram"></i></a> &nbsp; -->
+<!--  -->
+                            <!-- <a href="https://github.com/Arindam-coder"><i class="fa fa-github"></i></a> &nbsp; -->
+<!--  -->
+                            <!-- <a href="https://medium.com/@majeearindam4"><i class="fa fa-medium"></i></a> &nbsp; -->
+<!--  -->
+                            <!-- <a href="https://www.youtube.com/channel/UCLfz0h3yiIq0qakObl77-Kg"><i class="fa fa-youtube-square"></i></a>                           -->
+<!--  -->
+                        <!-- </ul> -->
+<!--  -->
+            
+                        <ul class="copyright">
+                           <li>&copy; Copyright 2022</li>
+                           <li>Designed with ❤️ by Saikat Naskar. </li>   
+                        </ul>
+            
+                     </div>
+
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+    </div>
+    <!-- /footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

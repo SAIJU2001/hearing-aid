@@ -1,0 +1,243 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    color: #444;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+}
+
+.tz-link {
+    font-size: 1em;
+    color: #1da7da;
+    text-decoration: none;
+}
+
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #e64427;
+    margin-top: 35px;
+}
+
+.app {
+    margin: 40px auto;
+}
+
+#note-textarea {
+    margin: 20px 0;
+    width: 80%;
+}
+
+#recording-instructions {
+    margin: 15px auto 60px;
+}
+
+#notes {
+    padding-top: 20px;
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.note .content {
+    margin-bottom: 30px;
+}
+
+.align-center img {
+    padding-top: 10px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px;
+    }
+    button {
+        margin-bottom: 20px;
+        padding: 10px 10px;
+        width: 80%;
+    }
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+    padding-top: 48px;
+    margin-bottom: 48px;
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+ }
+
+ footer a, footer a:visited { color: #525252; }
+ footer a:hover, footer a:focus { color: #fff; }
+ 
+ /* copyright */
+ footer .copyright {
+     margin: 0;
+     padding: 0;
+  }
+ footer .copyright li {
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+     line-height: 24px;
+ }
+ .ie footer .copyright li {
+    display: inline;
+ }
+ footer .copyright li:before {
+     content: "\2022";
+     padding-left: 10px;
+     padding-right: 10px;
+     color: #095153;
+ }
+ footer .copyright  li:first-child:before {
+     display: none;
+ }
+  
+ /* social links */
+ footer .social-links {
+    margin: 18px 0 30px 0;
+    padding: 0;
+    font-size: 30px;
+ }
+ footer .social-links li {
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+     margin-left: 42px;
+     color: #F06000;
+ }
+ 
+ footer .social-links li:first-child { margin-left: 0; }
+ /* Style all font awesome icons */
+ .fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.8;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook-official {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /*Linkedin*/
+ .fa-linkedin{
+    background: blue;
+    color: white;
+ }
+  /*YouTube*/
+ .fa-youtube-square {
+    background: red;
+    color: black;
+  }
+ /*Instagram*/
+ .fa-instagram{
+    background: rgb(255, 0, 0);
+    color: white;
+ }
+ /*Github*/
+ .fa-github{
+    background: white;
+    color: black;
+ }
+ /*Medium*/
+ .fa-medium{
+    background: black;
+    color: white;
+ }
+ /* Go To Top Button */
+ #go-top {
+     position: absolute;
+     top: -24px;
+    left: 50%;
+    margin-left: -30px;
+ }
+ #go-top a {
+     text-decoration: none;
+     border: 0 none;
+     display: block;
+     width: 60px;
+     height: 60px;
+     background-color: #525252;
+ 
+     -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+ 
+    color: #fff;
+    font-size: 21px;
+    line-height: 60px;
+      border-radius: 100%;
+ }
+ #go-top a:hover { background-color: #0F9095; }
+ 
+ 
